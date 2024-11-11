@@ -1,0 +1,33 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.header > div {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header > ul {
+    display: flex;
+    gap: 18px;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.header > ul li a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
