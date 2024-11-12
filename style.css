@@ -5,6 +5,11 @@ html{
 body{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.top{
+    background-color: #1F2937;
 }
 
 /*HEADER STYLINGS*/
@@ -13,7 +18,8 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1F2937;
+    width: auto;
+    margin: 0px 0px 100px 0px;
 }
 
 .header div {
@@ -38,13 +44,20 @@ body{
 .hero{
     display:flex;
     justify-content: center;
-    background-color: #1F2937;
     color:#E5E7EB;
+    width: 71.8%;
+    margin: 0 auto 100px;
 }
 
 .hero-text{
     display: flex;
     flex-flow: column wrap;
+    width: 50%;
+    margin: 0px 40px 0px 0px;
+}
+
+.hero-text h1{
+    margin:0px 0px -20px 0px;
 }
 
 .img-placeholder{
@@ -54,6 +67,7 @@ body{
     background-color: #8b9199;
     padding: 20px;
     margin: 0px;
+    width: 50%;
 }
 
 .hero-text h1 {
@@ -72,5 +86,5 @@ body{
     background-color: #3882F6;
     padding: 5px 25px;
     border-radius: 5px;
-    
+    max-width: 120px;
 }
