@@ -97,6 +97,7 @@ body{
     align-items: center;
     width: 71.8%;
     margin: 0px auto;
+    margin-bottom: 100px;
 }
 
 .random-info h2 {
@@ -131,4 +132,30 @@ body{
 .img-sub-cont p{
     margin-top: 0px;
     font-size: 18px;
+}
+
+/*QUOTE STYLINGS*/
+.quote-background{
+    background-color: #E5E7EB;
+    height: 500px;
+}
+.quote{
+    width: 60%;
+    color: #1F2937;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 0px auto;
+    padding-top: 125px;
+}
+
+.quote p{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote h2 {
+    align-self: flex-end;
+    margin-top: -30px;
 }
